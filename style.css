@@ -81,12 +81,13 @@ header span {
 
 select {
     /* Стили для выпадающего списка */
-      padding: 10px 15px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  font-size: 1em;
-  margin-bottom: 20px;
-  width: 200px;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    width: 200px;
+    background-repeat: no-repeat !important;
 }
 
 .section-title {
@@ -108,7 +109,7 @@ select {
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
-    padding-left: 30px;
+    padding: 0px 20px;
     margin: 15px 0;
 }
 
