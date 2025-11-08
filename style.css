@@ -1,0 +1,186 @@
+* {
+    /* Свойства для сброса начальных стилей элементов */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "inter",sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+header {
+    /* Стили для хедера */
+    background-color: #2965f1;
+    padding: 15px 30px;
+    margin-bottom: 30px;
+}
+
+header span {
+    /* Стили для текста в хедере IT-INCUBATOR */
+    color: white;
+    font-family: "Montserrat"; sans-serif;
+    font-weight: 700;
+    font-size: 1.em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.main-section {
+    /* Стили для первой секции */
+    background-color: #ffffff;
+    padding: 60px 0px;
+    margin-bottom: 60px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10ox rgba(0,0,0,0.1);
+    min-height: 100vh;
+    
+}
+
+.main-title {
+    /* Стили для заголовка в первой секции */
+    color: #2c3e50;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.main-text {
+    /* Стили для текста в первой секции */
+      font-size: 1.2em;
+  color: #555;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+.main-image {
+    /* Стили для изображения в первой секции */
+      max-width: 715px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+
+.about-section {
+    /* Стили для второй секции */
+    background-color: #ffffff;
+  padding: 40px;
+  margin: 30px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 1200px;
+
+}
+
+select {
+    /* Стили для выпадающего списка */
+      padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+.section-title {
+    /* Стили для заголовков во второй секции */
+      color: #2c3e50;
+  font-size: 1.8em;
+  font-weight: 600;
+  margin: 25px 0 15px 0;
+  border-bottom: 1px solid #e9ecef;
+  padding-bottom: 10px;
+}
+
+.frameworks-list {
+    /* Стили для маркированного списка во второй секции */
+    list-style-image: url(solar_map-arrow-up-bold.svg);
+      list-style-type: none;
+  padding-left: 0;
+  margin: 15px 0;
+}
+
+.books-list {
+    /* Стили для нумерованного списка во второй секции */
+      list-style-type: decimal;
+  padding-left: 30px;
+  margin: 15px 0;
+}
+
+.label {
+    /* Стили для подписей чекбоксов */
+      display: inline-flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.text-field {
+    /* Стили для односточного поля ввода текста */
+      padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+  width: 400px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.btn {
+    /* Стили для кнопки */
+      padding: 10px 20px;
+  background-color: #2965F1;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.line {
+    /* Стили для линии */
+      border: none;
+  height: 1px;
+  background-color: #dee2e6;
+  margin: 30px 0;
+}
+
+table {
+    /* Стили для таблицы */
+      width: 100;
+  border-collapse: collapse;
+  margin: 2px 0;
+  font-size: 1em;
+}
+
+th, td {
+    /* Стили для ячеек таблицы */
+     padding: 3px;
+  text-align: left;
+}
+
+footer {
+    /* Стили для футера */
+     background-color: #A3A7FF4D;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.footer-link {
+    /* Стили для футера */
+     color: #2965F1;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+}
